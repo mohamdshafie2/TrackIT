@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            name="de.5coffee.trackit.rcp"
+            application="org.eclipse.e4.ui.workbench.swt.E4Application">
+         <property
+               name="lifeCycleURI"
+               value="bundleclass://de.5coffee.trackit.rcp/de.fivecoffee.trackit.rcp.E4LifeCycle">
+         </property>
+         <property
+               name="applicationCSS"
+               value="platform:/plugin/de.5coffee.trackit.rcp/css/default.css">
+         </property>
+         <property
+	           name="applicationXMI"
+	           value="platform:/plugin/de.5coffee.trackit.core.model/Application.e4xmi">
+         </property>
+         <property
+               name="appName"
+               value="de.5coffee.trackit.rcp">
+         </property>
+      </product>
+   </extension>
+
+</plugin>

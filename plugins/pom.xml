@@ -1,0 +1,18 @@
+<project>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>de.5coffee.trackit</groupId>
+	<artifactId>de.5coffee.trackit.plugins</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<parent>
+		<groupId>de.5coffee.trackit</groupId>
+		<artifactId>de.5coffee.trackit.root</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+
+	<modules>
+		<module>de.5coffee.trackit.core.model</module>
+		<module>de.5coffee.trackit.rcp</module>
+	</modules>
+</project>

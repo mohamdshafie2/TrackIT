@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Trackit Core Model
+Bundle-SymbolicName: de.5coffee.trackit.core.model
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: David Seidel <david.seidel@me.com>
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
